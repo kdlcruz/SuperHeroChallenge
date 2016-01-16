@@ -1,0 +1,26 @@
+<ion-content scroll="false">
+    <div id="game">
+        <div ng-if="thumbnail">
+            <div class="help">Guess the group or character name base on the picture</div>
+            <div class="thumbnail">
+                <img src="{{ thumbnail }}" alt="">
+            </div>
+        </div>
+
+        <div ng-if="description">
+            <div class="help">Guess the group or character name base on the description</div>
+            <div class="question">{{ description }}</div>
+        </div>
+
+
+        <div class="choices" >
+            <div class="option" ng-repeat="option in options">
+                <button class="btn btn-red" ng-click="answer(option.id)">
+                    <span>{{ option.name }}</span>
+                </button>
+            </div>
+        </div>
+
+    </div>
+
+</ion-content>

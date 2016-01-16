@@ -1,0 +1,59 @@
+/* Empty. Add your own CSS if you like */
+
+.pane, .view {
+    background: transparent;
+}
+
+.scroll-content {
+    display: table;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+}
+
+.page {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.btn {
+    width: 300px;
+    margin: 0 auto;
+    background: #f0141e;
+    border-radius: 15px;
+    height: auto;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#game {
+    padding-top: 44px;
+}
+#game .help {
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+}
+#game .thumbnail {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+#game .thumbnail img {
+    width: 100%;
+    border: 2px solid #000;
+    border-radius: 15px;
+}
+#game .question {
+    margin-top: 20px;
+    color: #fff;
+    background-color: #000;
+    font-size:  20px;
+}
+.choices {
+    text-align: center;
+}
+.choices .btn {
+    margin: 5px 0px;
+}
