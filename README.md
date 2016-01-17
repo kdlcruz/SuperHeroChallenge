@@ -32,6 +32,9 @@ $ ionic emulate android
 ## Why?
 Because I can :D  and I got inspired to be a little productive.
 
-
 ## Issues
-Well, there's a lot of issues for me to list so I didn't bother. Main problem is the loading time, I can't help it since the data is all coming from the Marvel API.
+Well, there's a lot of issues for me to list so I didn't bother. Main problem is the loading time, I can't help it
+since the data is all coming from the Marvel API.
+
+## Comments
+Feedbacks and angry comments are very much appreciated and you can contact me at kj_delacruz28@yahoo.com
